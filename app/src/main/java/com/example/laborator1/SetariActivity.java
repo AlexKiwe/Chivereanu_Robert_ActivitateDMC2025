@@ -50,6 +50,7 @@ public class SetariActivity extends AppCompatActivity {
                 case "Roșu": culoare = Color.RED; break;
                 case "Verde": culoare = Color.GREEN; break;
                 case "Albastru": culoare = Color.BLUE; break;
+                case "Alb": culoare = Color.WHITE; break;
             }
 
             SharedPreferences.Editor editor = prefs.edit();

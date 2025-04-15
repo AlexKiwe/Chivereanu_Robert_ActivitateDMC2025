@@ -11,14 +11,14 @@
     <string name="mergi_la_third_activity">Go to Third Activity</string>
     <string name="back_to_main_activity">Back to Main Activity</string>
     <string name="this_is_second_activity">This is Second Activity</string>
-    <string name="gestioneaza_carti_room_db" translatable="false">Gestionează cărți (Room DB)</string>
+    <string name="gestioneaza_carti_room_db" translatable="false">Gestioneaza carti (Room DB)</string>
     <string name="cauta_carte" translatable="false">Cauta carte</string>
     <string name="cauta_dupa_titlu" translatable="false">Cauta dupa titlu</string>
     <string name="afiseaza_toate_cartile" translatable="false">Afiseaza toate cartile</string>
     <string name="pagini_min" translatable="false">Pagini min</string>
     <string name="pagini_max" translatable="false">Pagini max</string>
     <string name="filtreaza_dupa_interval_pagini" translatable="false">Filtreaza dupa interval pagini</string>
-    <string name="valoare_pagini_pentru_stergere" translatable="false">Valoare pagini pentru ștergere</string>
+    <string name="valoare_pagini_pentru_stergere" translatable="false">Valoare pagini pentru stergere</string>
     <string name="sterge_cartile_cu_pagini_mai_mare_valoare" translatable="false">Sterge cartile cu pagini mai mare valoare</string>
     <string name="sterge_cartile_cu_pagini_mai_mica_valoare" translatable="false">Sterge cartile cu pagini mai mica valoare</string>
     <string name="prefix_titlu" translatable="false">Prefix titlu</string>
@@ -35,6 +35,7 @@
         <item>Roșu</item>
         <item>Verde</item>
         <item>Albastru</item>
+        <item>Alb</item>
     </string-array>
 
 </resources>
