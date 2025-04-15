@@ -1,3 +1,40 @@
 <resources>
-    <string name="app_name">laborator1</string>
+    <string name="app_name">SafeZone</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="change_text">Change Text</string>
+    <string name="enter_text">Enter text</string>
+    <string name="new_text">Text changed!</string>
+    <string name="open_third_activity">Open Third Activity</string>
+    <string name="open_second_activity">Open Second Activity</string>
+    <string name="send_data_back">Send Data Back</string>
+    <string name="mergi_la_second_activity">Go to Second Activity</string>
+    <string name="mergi_la_third_activity">Go to Third Activity</string>
+    <string name="back_to_main_activity">Back to Main Activity</string>
+    <string name="this_is_second_activity">This is Second Activity</string>
+    <string name="gestioneaza_carti_room_db" translatable="false">Gestionează cărți (Room DB)</string>
+    <string name="cauta_carte" translatable="false">Cauta carte</string>
+    <string name="cauta_dupa_titlu" translatable="false">Cauta dupa titlu</string>
+    <string name="afiseaza_toate_cartile" translatable="false">Afiseaza toate cartile</string>
+    <string name="pagini_min" translatable="false">Pagini min</string>
+    <string name="pagini_max" translatable="false">Pagini max</string>
+    <string name="filtreaza_dupa_interval_pagini" translatable="false">Filtreaza dupa interval pagini</string>
+    <string name="valoare_pagini_pentru_stergere" translatable="false">Valoare pagini pentru ștergere</string>
+    <string name="sterge_cartile_cu_pagini_mai_mare_valoare" translatable="false">Sterge cartile cu pagini mai mare valoare</string>
+    <string name="sterge_cartile_cu_pagini_mai_mica_valoare" translatable="false">Sterge cartile cu pagini mai mica valoare</string>
+    <string name="prefix_titlu" translatable="false">Prefix titlu</string>
+    <string name="incrementeaza_paginile_pentru_titlurile_cu_prefixul" translatable="false">Incrementeaza paginile pentru titlurile cu prefixul</string>
+    <string name="inapoi_la_meniul_principal" translatable="false">Inapoi la Meniul Principal</string>
+    <string-array name="categorii_array">
+        <item>PC</item>
+        <item>LAPTOP</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="culori_array">
+        <item>Negru</item>
+        <item>Roșu</item>
+        <item>Verde</item>
+        <item>Albastru</item>
+    </string-array>
+
 </resources>

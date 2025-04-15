@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SafeZone</string>
+    <string name="hello_world">Salut lume!</string>
+    <string name="change_text">Schimbă textul</string>
+    <string name="enter_text">Introduceti text</string>
+    <string name="new_text">Text schimbat!</string>
+    <string name="open_third_activity">Deschide a treia activitate</string>
+    <string name="open_second_activity">Deschide a doua activitate</string>
+    <string name="send_data_back">Trimite datele</string>
+    <string name="mergi_la_second_activity">Mergi la a doua activitate</string>
+    <string name="mergi_la_third_activity">Mergi la a treia activitate</string>
+    <string name="back_to_main_activity">Înapoi la activitatea principală</string>
+    <string name="this_is_second_activity">Aceasta este a doua activitate</string>
+    <string-array name="categorii_array">
+        <item>PC</item>
+        <item>LAPTOP</item>
+        <item>Altele</item>
+    </string-array>
+</resources>

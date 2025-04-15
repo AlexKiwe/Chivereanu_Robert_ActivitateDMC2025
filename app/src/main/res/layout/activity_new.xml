@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextView pentru descriere -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Completează detaliile magazinului:"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- EditText pentru numele magazinului -->
+    <EditText
+        android:id="@+id/editTextNume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numele magazinului"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- CheckBox pentru disponibilitatea magazinului -->
+    <CheckBox
+        android:id="@+id/checkBoxDisponibilitate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disponibil pentru vanzare"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- RadioGroup pentru selecția categoriei magazinului -->
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonJewelry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PC" />
+
+        <RadioButton
+            android:id="@+id/radioButtonClothing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LAPTOP" />
+    </RadioGroup>
+
+    <!-- Spinner pentru selecția unui tip de magazin -->
+    <Spinner
+        android:id="@+id/spinnerCategorie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- RatingBar pentru evaluarea magazinului -->
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="3"
+        android:stepSize="1"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Switch pentru activarea/dezactivarea unui status -->
+    <Switch
+        android:id="@+id/switchStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status activ"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- ToggleButton pentru comutarea unui status -->
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Dezactivat"
+        android:textOn="Activat"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- TextView pentru a afișa data selectată -->
+    <TextView
+        android:id="@+id/textViewData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data selectată: --/--/----"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Buton pentru a selecta o dată -->
+    <Button
+        android:id="@+id/buttonSelectDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selectează data"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Buton pentru trimiterea datelor înapoi la MainActivity -->
+    <Button
+        android:id="@+id/buttonReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trimite datele"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

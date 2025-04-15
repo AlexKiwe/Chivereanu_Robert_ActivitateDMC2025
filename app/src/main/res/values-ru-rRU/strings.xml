@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SafeZone</string>
+    <string name="hello_world">Привет, мир!</string>
+    <string name="change_text">Изменить текст</string>
+    <string name="enter_text">Введите текст</string>
+    <string name="new_text">Текст изменен!</string>
+    <string name="open_third_activity">Открыть третью активность</string>
+    <string name="open_second_activity">Открыть вторую активность</string>
+    <string name="send_data_back">Отправить данные</string>
+    <string name="mergi_la_second_activity">Перейти ко второй активности</string>
+    <string name="mergi_la_third_activity">Перейти к третьей активности</string>
+    <string name="back_to_main_activity">Назад в главное меню</string>
+    <string name="this_is_second_activity">Это вторая активность</string>
+    <string-array name="categorii_array">
+        <item>PC</item>
+        <item>LAPTOP</item>
+        <item>Другие</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SafeZone</string>
+    <string name="hello_world">你好，世界！</string>
+    <string name="change_text">更改文本</string>
+    <string name="enter_text">输入文本</string>
+    <string name="new_text">文本已更改！</string>
+    <string name="open_third_activity">打开第三个活动</string>
+    <string name="open_second_activity">打开第二个活动</string>
+    <string name="send_data_back">发送数据</string>
+    <string name="mergi_la_second_activity">前往第二个活动</string>
+    <string name="mergi_la_third_activity">前往第三个活动</string>
+    <string name="back_to_main_activity">返回主活动</string>
+    <string name="this_is_second_activity">这是第二个活动</string>
+    <string-array name="categorii_array">
+        <item>PC</item>
+        <item>LAPTOP</item>
+        <item>其他</item>
+    </string-array>
+</resources>
